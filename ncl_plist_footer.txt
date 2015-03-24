@@ -1,0 +1,56 @@
+</array>
+
+
+    <key>BBLMSuffixMap</key>
+    <array>
+        <dict>
+            <key>BBLMLanguageSuffix</key>
+            <string>.ncl</string>
+        </dict>
+    </array>
+    <key>Language Features</key>
+    <dict>
+        <key>Identifier and Keyword Characters</key>
+        <string>1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz.</string>
+        <key>Open Parameter Lists</key>
+        <string>(</string>
+        <key>Close Parameter Lists</key>
+        <string>)</string>
+        <key>String Pattern</key>
+        <string><![CDATA[
+        (?x:
+            (?>   "  (?s: . | [^"] )*?    (?: " | $ )    ) |
+
+            (?>   '  (?s: \\. | [^'] )*?    (?: ' | $ )    )
+	    )
+        ]]>
+        </string>
+        <!-- matches " | ' to next " | ' respectively . stops at line break, laggy otherwise -->
+        <key>Comment Pattern</key>
+		<string><![CDATA[(?x:  (?>;.*$)  )]]></string>
+		 <!-- anything after an ; until line break will be a comment -->
+
+		<key>Function Pattern</key>
+        <string><![CDATA[
+          (?x:
+            (?P<function>
+              ^[ ]*( function | procedure )[ ]+
+                  (?P<function_name>
+                      [!$%&*+-./:<=>?@^~0-9A-Z_a-z]+
+                  )
+              (?s:.+?)
+              (?=^[ ]*end[ ]*[;.*\r\n] )
+             )
+          )
+          ]]>
+          </string>
+
+        <key>Skip Pattern</key>
+        <string><![CDATA[(?x:
+            (?>
+                (?P>comment) | (?P>string)
+            )
+        )]]></string>
+    </dict>
+</dict>
+</plist>

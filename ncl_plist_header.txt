@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- Updated to NCL 6.3.0 as of 2015-03-22
+Supports basic code folding of functions and procedure now. 
+Go to end and start of function will now also work.
+This can not be extended to if/do in the codeless module.  I tried. 
+  
+	  Updated by A. Brammer, original file by E. Vanwye, contribution by C. Bardeen 
+	  Contirbutions welcome, email to ncl talk mailing list. -->
+<dict>
+    <key>BBEditDocumentType</key>
+    <string>CodelessLanguageModule</string>
+    <key>BBLMLanguageDisplayName</key>
+    <string>NCAR Command Language</string>
+    <key>BBLMLanguageCode</key>
+    <string>NCL</string>
+    <key>BBLMColorsSyntax</key>
+    <true/>
+     <key>BBLMSupportsTextCompletion</key>
+     <false/>
+    <key>BBLMScansFunctions</key>
+    <true/>
+    <key>BBLMIsCaseSensitive</key>
+    <true/>
+    <key>BBLMKeywordList</key>
+    <array>
+    	<string>(/</string>
+    	<string>/)</string>
+        <string>.ne.</string>
+    	<string>.eq.</string>
+    	<string>.gt.</string>
+    	<string>.lt.</string>
+    	<string>.ge.</string>
+    	<string>.le.</string>
+        <string>.or.</string>
+	<string>.xor.</string>
+	<string>.not.</string>
+	<string>.and.</string>
+        <string>begin</string>
+        <string>break</string>
+        <string>byte</string>
+        <string>character</string>
+        <string>continue</string>
+        <string>create</string>
+        <string>defaultapp</string>
+        <string>do</string>
+        <string>double</string>
+        <string>else</string>
+        <string>end</string>
+        <string>enumeric</string>
+        <string>external</string>
+        <string>False</string>
+        <string>file</string>
+        <string>float</string>
+        <string>function</string>
+        <string>getvalues</string>
+        <string>graphic</string>
+        <string>group</string>
+        <string>if</string>
+        <string>integer</string>
+        <string>int64</string>
+        <string>list</string>
+        <string>load</string>
+        <string>local</string>
+        <string>logical</string>
+        <string>long</string>
+        <string>new</string>
+        <string>_Missing</string>
+        <string>Missing</string>
+        <string>_FillValue</string>
+        <string>new</string>
+        <string>noparent</string>
+        <string>numeric</string>
+        <string>procedure</string>
+        <string>quit</string>
+        <string>QUIT</string>
+        <string>Quit</string>
+        <string>record</string>
+        <string>return</string>
+        <string>setvalues</string>
+        <string>short</string>
+        <string>snumeric</string>
+        <string>stop</string>
+        <string>string</string>
+        <string>then</string>
+        <string>True</string>
+        <string>ubyte</string>
+        <string>uint</string>
+        <string>uint64</string>
+        <string>ulong</string>
+        <string>ushort</string>
+        <string>while</string>
+    </array>
+    <key>BBLMPredefinedNameList</key>
+    <array>
