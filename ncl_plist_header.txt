@@ -17,8 +17,10 @@ This can not be extended to if/do in the codeless module.  I tried.
     <string>NCL</string>
     <key>BBLMColorsSyntax</key>
     <true/>
-     <key>BBLMSupportsTextCompletion</key>
-     <false/>
+    <key>BBLMSupportsTextCompletion</key>
+    <true/>
+    <key>BBLMCommentLineDefault</key>
+    <string>;</string>
     <key>BBLMScansFunctions</key>
     <true/>
     <key>BBLMIsCaseSensitive</key>
