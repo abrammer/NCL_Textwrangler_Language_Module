@@ -27,8 +27,9 @@
         </string>
         <!-- matches " | ' to next " | ' respectively . stops at line break, laggy otherwise -->
         <key>Comment Pattern</key>
-		<string><![CDATA[(?x:  (?>;.*$)  )]]></string>
+		<string><![CDATA[(?x:  (?> (;.*$ | (?s: \/;.*;/)) )  )]]></string>
 		 <!-- anything after an ; until line break will be a comment -->
+		 <!-- also matches /; until closing block ;/ -->
 
 		<key>Function Pattern</key>
         <string><![CDATA[

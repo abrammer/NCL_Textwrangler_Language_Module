@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<!-- Updated to NCL 6.3.0 as of 2015-03-22
-Supports basic code folding of functions and procedure now. 
-Go to end and start of function will now also work.
-This can not be extended to if/do in the codeless module.  I tried. 
-  
-	  Updated by A. Brammer, original file by E. Vanwye, contribution by C. Bardeen 
-	  Contirbutions welcome, email to ncl talk mailing list. -->
+<!-- NCL 6.4.0
+- A. Brammer - 2017-07-28
+	Added Block Comment features and colouring for NCL 6.4+  
+	Use shortcut 'cmd opt /' to block comment
+	
+- A. Brammer - 2015-04-01
+    Added ability to "Un/Comment Selection"
+
+-A. Brammer - Updated to NCL 6.3.0 -  2015-03-22
+    Supports basic code folding of functions and procedure now.
+    Go to end and start of function will now also work.
+    This can not be extended to if/do in the codeless module.  I tried.
+    
+
+   Updated by A. Brammer, original file by E. Vanwye, contribution by C. Bardeen
+   Contirbutions welcome, email to ncl-talk mailing list.
+-->
 <dict>
     <key>BBEditDocumentType</key>
     <string>CodelessLanguageModule</string>
     <key>BBLMLanguageDisplayName</key>
-    <string>NCAR Command Language</string>
+    <string>NCL</string>
     <key>BBLMLanguageCode</key>
     <string>NCL</string>
     <key>BBLMColorsSyntax</key>
@@ -21,6 +31,10 @@ This can not be extended to if/do in the codeless module.  I tried.
     <true/>
     <key>BBLMCommentLineDefault</key>
     <string>;</string>
+    <key>BBLMCommentPrefixDefault</key>
+    <string>/;</string>
+    <key>BBLMCommentSuffixDefault</key>
+    <string>;/</string>
     <key>BBLMScansFunctions</key>
     <true/>
     <key>BBLMIsCaseSensitive</key>

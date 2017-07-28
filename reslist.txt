@@ -319,6 +319,7 @@
 <string>gsnDebugWriteFileName</string>
 <string>gsnDraw</string>
 <string>gsnFrame</string>
+<string>gsnHistogramBarColors</string>
 <string>gsnHistogramBarWidthPercent</string>
 <string>gsnHistogramBinIntervals</string>
 <string>gsnHistogramBinMissing</string>
@@ -340,6 +341,10 @@
 <string>gsnLeftStringFuncCode</string>
 <string>gsnLeftStringOrthogonalPosF</string>
 <string>gsnLeftStringParallelPosF</string>
+<string>gsnLeftXRefLineBarColors</string>
+<string>gsnLeftXRefLineBarFillScales</string>
+<string>gsnLeftXRefLineBarPatterns</string>
+<string>gsnLeftXRefLineColor</string>
 <string>gsnMajorLatSpacing</string>
 <string>gsnMajorLonSpacing</string>
 <string>gsnMaskLambertConformal</string>
@@ -353,9 +358,16 @@
 <string>gsnPanelFigureStrings</string>
 <string>gsnPanelFigureStringsBackgroundFillColor</string>
 <string>gsnPanelFigureStringsFontHeightF</string>
+<string>gsnPanelFigureStringsJust</string>
 <string>gsnPanelFigureStringsPerimOn</string>
 <string>gsnPanelLabelBar</string>
 <string>gsnPanelLeft</string>
+<string>gsnPanelMainFont</string>
+<string>gsnPanelMainFontColor</string>
+<string>gsnPanelMainFontHeightF</string>
+<string>gsnPanelMainPosXF</string>
+<string>gsnPanelMainPosYF</string>
+<string>gsnPanelMainString</string>
 <string>gsnPanelRight</string>
 <string>gsnPanelRowSpec</string>
 <string>gsnPanelScalePlotIndex</string>
@@ -381,6 +393,10 @@
 <string>gsnRightStringFuncCode</string>
 <string>gsnRightStringOrthogonalPosF</string>
 <string>gsnRightStringParallelPosF</string>
+<string>gsnRightXRefLineBarColors</string>
+<string>gsnRightXRefLineBarFillScales</string>
+<string>gsnRightXRefLineBarPatterns</string>
+<string>gsnRightXRefLineColor</string>
 <string>gsnScalarContour</string>
 <string>gsnScale</string>
 <string>gsnShape</string>
@@ -396,8 +412,11 @@
 <string>gsnXAxisIrregular2Log</string>
 <string>gsnXRefLine</string>
 <string>gsnXRefLineColor</string>
+<string>gsnXRefLineColors</string>
 <string>gsnXRefLineDashPattern</string>
+<string>gsnXRefLineDashPatterns</string>
 <string>gsnXRefLineThicknessF</string>
+<string>gsnXRefLineThicknesses</string>
 <string>gsnXYAboveFillColors</string>
 <string>gsnXYBarChart</string>
 <string>gsnXYBarChartBarWidth</string>
@@ -432,6 +451,7 @@
 <string>lbAutoManage</string>
 <string>lbBottomMarginF</string>
 <string>lbBoxCount</string>
+<string>lbBoxEndCapStyle</string>
 <string>lbBoxFractions</string>
 <string>lbBoxLineColor</string>
 <string>lbBoxLineDashPattern</string>
@@ -447,6 +467,7 @@
 <string>lbFillColors</string>
 <string>lbFillDotSizeF</string>
 <string>lbFillLineThicknessF</string>
+<string>lbFillOpacityF</string>
 <string>lbFillPattern</string>
 <string>lbFillPatterns</string>
 <string>lbFillScaleF</string>
@@ -478,6 +499,7 @@
 <string>lbMonoFillPattern</string>
 <string>lbMonoFillScale</string>
 <string>lbOrientation</string>
+<string>lbOverrideFillOpacity</string>
 <string>lbPerimColor</string>
 <string>lbPerimDashPattern</string>
 <string>lbPerimDashSegLenF</string>
@@ -1400,13 +1422,10 @@
 <string>wkPaperHeightF</string>
 <string>wkPaperSize</string>
 <string>wkPaperWidthF</string>
-<string>wkPause</string>
 <string>wkTopLevelViews</string>
 <string>wkViews</string>
 <string>wkVisualType</string>
 <string>wkWidth</string>
-<string>wkWindowId</string>
-<string>wkXColorMode</string>
 <string>wsCurrentSize</string>
 <string>wsMaximumSize</string>
 <string>wsThresholdSize</string>
@@ -1434,6 +1453,8 @@
 <string>xyLineLabelFontQuality</string>
 <string>xyLineLabelFontThicknessF</string>
 <string>xyLineLabelFuncCode</string>
+<string>xyLineOpacities</string>
+<string>xyLineOpacityF</string>
 <string>xyLineThicknessF</string>
 <string>xyLineThicknesses</string>
 <string>xyMarkLineMode</string>
@@ -1441,6 +1462,8 @@
 <string>xyMarker</string>
 <string>xyMarkerColor</string>
 <string>xyMarkerColors</string>
+<string>xyMarkerOpacities</string>
+<string>xyMarkerOpacityF</string>
 <string>xyMarkerSizeF</string>
 <string>xyMarkerSizes</string>
 <string>xyMarkerThicknessF</string>
